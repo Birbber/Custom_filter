@@ -6,4 +6,5 @@ yandex.ru##div#wd-wrapper-_traffic-1.i-bem.widget.widget_mode_plain.widget_id_tr
 ||google.*/search$removeparam=client
 
 !#include https://raw.githubusercontent.com/anastenko/Custom_filters/main/test_1
+!#include https://raw.githubusercontent.com/anastenko/Custom_filter/main/Custom_filter
 !#include https://raw.githubusercontent.com/chirag127/fanboy-adblock/master/fanboy-anticomments.txt
