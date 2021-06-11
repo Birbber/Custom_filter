@@ -1,7 +1,10 @@
-!||yandex.ru^$third-party
-!google.com#$#body { background-color: #FF0000!important; }
-!||example.org^
-!championat.com##.header
-!yandex.ru##div#wd-wrapper-_traffic-1.i-bem.widget.widget_mode_plain.widget_id_traffic-1.widget_name_traffic.widgets__item.b-widget-fixed.widget_js_inited
-!@@||example.org^$document
+||yandex.ru^$third-party
+google.com#$#body { background-color: #FF0000!important; }
+||example.org^
+championat.com##.header
+yandex.ru##div#wd-wrapper-_traffic-1.i-bem.widget.widget_mode_plain.widget_id_traffic-1.widget_name_traffic.widgets__item.b-widget-fixed.widget_js_inited
+@@||example.org^$document
 ||google.*/search$removeparam=client
+
+!#include https://raw.githubusercontent.com/anastenko/Custom_filters/main/test_1
+!#include https://raw.githubusercontent.com/chirag127/fanboy-adblock/master/fanboy-anticomments.txt
