@@ -1,7 +1,6 @@
-||yandex.ru^$third-party
 ||example.org^
 championat.com##.header
-yandex.ru##div#wd-wrapper-_traffic-1.i-bem.widget.widget_mode_plain.widget_id_traffic-1.widget_name_traffic.widgets__item.b-widget-fixed.widget_js_inited
+!yandex.ru##div#wd-wrapper-_traffic-1.i-bem.widget.widget_mode_plain.widget_id_traffic-1.widget_name_traffic.widgets__item.b-widget-fixed.widget_js_inited
 @@||example.org^$document
 ||google.*/search$removeparam=client
 
