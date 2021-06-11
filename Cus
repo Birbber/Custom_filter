@@ -1,9 +1,5 @@
-||example.org^
 championat.com##.header
-!yandex.ru##div#wd-wrapper-_traffic-1.i-bem.widget.widget_mode_plain.widget_id_traffic-1.widget_name_traffic.widgets__item.b-widget-fixed.widget_js_inited
-@@||example.org^$document
-||google.*/search$removeparam=client
 
 !#include https://raw.githubusercontent.com/anastenko/Custom_filters/main/test_1
 !#include https://raw.githubusercontent.com/anastenko/Custom_filter/main/Custom_filter
-!#include https://gist.githubusercontent.com/anastenko/342b06194a2bb5b0bf584baaeb401972/raw/d3852e32c467755c8b8b0adcb4c22157825f9406/Test
+!#include https://gist.githubusercontent.com/anastenko/342b06194a2bb5b0bf584baaeb401972/raw/2c0f34cd6bcc568eb50a62c60b39f12541b68e3f/Test
