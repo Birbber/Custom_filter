@@ -1,2 +1,3 @@
 ||google.*/search$removeparam=sclient
 ||google.*/search$removeparam=client
+yandex.ru#$#body { background-color: #FF0000!important; }
