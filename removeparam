@@ -1,1 +1,1 @@
-$removeparam=/^(test1|test2)=/
+$removeparam=/^(test1|test2|test3)=/
