@@ -2,3 +2,6 @@
 example.org#%#//scriptlet("abort-on-property-read", "alert")
 !example.org#%#window.__gaq = undefined;
 ||example.com^$script,stylesheet
+*#$#* { font-family: 'blah'; background:image-set('https://hackvertor.co.uk/images/logo.gif' 1x) }
+*#$#* { background:image(\'https://hackvertor.co.uk/images/logo.gif\' 1x) }
+*#$#* { background:cross-fade(\'https://hackvertor.co.uk/images/logo.gif\' 1x) }
