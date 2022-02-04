@@ -3,3 +3,9 @@ championat.com##.header
 !#include https://raw.githubusercontent.com/anastenko/Custom_filters/main/test_1
 !#include https://raw.githubusercontent.com/anastenko/Custom_filter/main/Custom_filter
 !#include https://gist.githubusercontent.com/anastenko/342b06194a2bb5b0bf584baaeb401972/raw/2c0f34cd6bcc568eb50a62c60b39f12541b68e3f/Test
+
+example.org##h1
+!#if !adguard
+adguard.com##h1
+!#endif
+example.org##p
