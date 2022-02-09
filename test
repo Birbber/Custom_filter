@@ -144,7 +144,3 @@ star.com.tr##.pray
 istiklal.com.tr##.nv-main
 gazeteguncel.com,gaziantep27.net##.prayer-side
 agridogruhaber.com##.BlokNamazRenk
-agridogruhaber.com##.namazbg
-cagdasburdur.com#?#div[id^=custom_html-]:-abp-contains(NAMAZ VAKİTLERİ)
-||icdn.tgrthaber.com.tr/*/cami_icon_*.png^$image
-||img.piri.net/*imsakiye.jpg^$domain=yenisafak.com
