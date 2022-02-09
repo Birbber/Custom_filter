@@ -134,13 +134,3 @@ yabiladi.*##a[href="/prieres/"]
 yabiladi.*#?#.frame:-abp-has(.prayer)
 yenisafak.com#?#.item:-abp-has(a[href$=-prayer-times])
 gulf-times.com###headingTwo
-alarab.qa##.timetables
-alrai.com##.salat-item
-addustour.com#?#div.al-module-2:-abp-contains(اوقات الصلاة)
-alwatannews.net##.side_menu_prayer
-yeniakit.com.tr##.info-bar > li:not([class], [title])
-takvim.com.tr##.dualTabWidget > .tabs > li:nth-of-type(2):last-of-type
-star.com.tr##.pray
-istiklal.com.tr##.nv-main
-gazeteguncel.com,gaziantep27.net##.prayer-side
-agridogruhaber.com##.BlokNamazRenk
