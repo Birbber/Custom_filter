@@ -1,7 +1,150 @@
-championat.com##.header
+!championat.com##.header
+!example.org##h1
+!!#if !adguard
+!adguard.com##h1
+!!#endif
+!example.org##p
 
-example.org##h1
-!#if !adguard
-adguard.com##h1
-!#endif
-example.org##p
+[Adblock Plus 3.6]
+! Title: ⏰ Anti-'Prayer times' List
+! Version: 05February2022v1
+! Expires: 7 days
+! Description: So you're sitting there reading a newssite, and then you find big banners that try to tell you the exact points in time you're supposed to pray? If you want to feel less stressed and less like a slave of the clock, then this list is for you.
+! If you know of any other general websites that tend to display prayer times, give me a heads-up about it. I am also willing to add entries for non-Islamic prayer times, such as for e.g. Evangelical Christian movements.
+! Description translations to Arabic, Farsi, Turkish, Malay and French are wanted: https://crwd.in/dandelion-sprout-nordic-filter
+! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+! Generic
+###pray_time
+##.prayer-sec_1:not(html, body)
+##.prayerBg:not(html, body)
+##.waktu-solat-block:not(html, body)
+##[href^="https://www.e-solat."]
+##a[href*="/prayer_timings."]
+##a[title="Prayer Timings"]
+##div[class^=waktusolat_]
+##li > [href*="/prayer-time-"]
+~google.*##a[href$="/prayer-times"]
+~albayan.ae##.prayertime:not(html, body)
+! almanar.com.lb
+##.prayer-times:not(html, body)
+! almasryalyoum.com
+##.prayer_time:not(html, body)
+! alrai.com
+##.salat-time:not(html, body)
+! todaytime.ir
+##.pray_times:not(html, body)
+! adwhit.com
+##a[href$=PrayerTimes]
+! info-algerie.com
+##a[href*=horaires-priere]
+! albayan.ae
+##.prayertimer:not(html, body)
+! bahesab.ir
+##[href$="/time/prayer/"]
+! tunisienumerique.com, casablancacity.ma
+##a[href*="/horaires-de-priere" i]
+! lematin.ma
+##a[href^="/horaire-priere"]
+##.priere-bloc:not(html, body)
+! casablancacity.ma
+##a[href$="/مواقيت-الصلاة"]
+! https://www.sabah.com.tr/, https://www.milligazete.com.tr/, https://www.tgrthaber.com.tr/, https://www.haberturk.com/
+##a[href$=namaz-vakitleri]
+! cnnturk.com
+##a[href*="/namaz-vakitleri/"]
+! bolgegundem.com
+##a[href*="/namaz-vakitleri.htm"]
+! ntv.com.tr
+##.imsakiye:not(html, body)
+! haberturk.com
+##.widget-ramadan:not(html, body)
+###ramazan-sayac
+! https://www.posta.com.tr/insan/astroloji
+##.imsakiye-lite:not(html, body)
+! almanar.com.lb
+##.dropdown-prayer:not(html, body)
+! albayan.ae
+##.imsakiyaholder:not(html, body)
+! haberler.com
+###imsak_serit
+! dhivehi.mv
+##.icon_prayer-times:not(html, body)
+! addustour.com
+||timesprayer.com/widgets.php^$third-party
+! yeniasya.com.tr
+##.salaat-times:not(html, body)
+! bursahabermerkezi.com
+##.namazvakitleri
+! bingolonline.com
+##.namazVakitleriBlok
+! https://www.burdurweb.com/web/
+! herihaber.com.tr
+###namazVakitleri
+! gunisigigazetesi.net
+! eskisehirhaber.com
+###prayer-times
+! bingolgazetesi.com.tr
+! bingolkenthaber.com
+! burdurilkadim.com
+##.namaz:not(html, body)
+! cagdasburdur.com
+||vakitci.com^$subdocument,third-party
+! mersinistikbal.net
+! tarsusekspres.com.tr
+##.namaz-saatleri:not(html, body)
+! esgundem26.com
+##.panel-namaz:not(html, body)
+! asigazetesi.com
+##.header2-vakit:not(html, body)
+
+! Site-specific
+yenisafak.com,yeniakit.com.tr,haber7.com##.prayer
+yjc.ir,tabnak.ir##a[href$="/fa/prayer"]
+adnocdistribution.ae##.footer-info-time
+albayan.ae##.prayername
+almanar.com.lb#?#.box-wrapper:-abp-has(.prayer-times)
+alrai.com#?#.padd10px:-abp-has(> .salat-time)
+arabiaweather.com##.ramadan-section-container
+dhivehi.mv###ptimes
+dhivehi.mv##a[href="/prayer-times/"]
+dirarab.net##a[href$="/prayertimes"]
+dubai-online.com#?#.entry:-abp-contains(Prayer Times)
+edarabia.com#?#.box:-abp-contains(Prayer Times)
+elwatannews.com##li > [href$="/pray"]
+emaratalyoum.com##div[class^=imsakiya-]
+haberler.com#?#.haberler-item:-abp-contains(Namaz Vakitleri)
+hamariweb.com#?#div.col-md-4:-abp-has(td[width="25%"])
+info-algerie.com##a[href*=ajouter-heure-priere]
+info-algerie.com#?#.blog-single-sidebar:-abp-has(a[href*=ajouter-heure-priere])
+menara.ma##.main-horaires
+portal.moi.gov.qa#?#li:-abp-has(> a[href*="/prayertimings/"])
+raajje.mv##.prayer-bar > div[style*="235"]
+radiogafsa.tn#?#.widget:-abp-has(ahmedii)
+shobiddak.com#?#h4:-abp-contains(/^أوقات الصلاة$/)
+shobiddak.com#?#li:-abp-has(a[href="/prayers/cities"])
+thenational.ae#?#.dropdown:-abp-has(.prayer)
+thenews.com.pk##a[href$="/prayer-time"]
+todaytime.ir##.navbar-nav [href="/اوقات-شرعی-اذان"]
+tunisienumerique.com#?#.bande-header-container > ul > li:-abp-has(.priere)
+tunisienumerique.com#?#li:-abp-has(> a[href*="/%d8%a3%d9%88%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a7%d8%a9-%d9%81%d9%8a-%d8%aa%d9%88%d9%86%d8%b3/"])
+visitabudhabi.ae#?#li:-abp-has(> a[href*="/prayer.times.aspx"])
+www.aviny.com##a[href*="prayer.aviny.com"]
+yabiladi.*##a[href="/prieres/"]
+yabiladi.*#?#.frame:-abp-has(.prayer)
+yenisafak.com#?#.item:-abp-has(a[href$=-prayer-times])
+gulf-times.com###headingTwo
+alarab.qa##.timetables
+alrai.com##.salat-item
+addustour.com#?#div.al-module-2:-abp-contains(اوقات الصلاة)
+alwatannews.net##.side_menu_prayer
+yeniakit.com.tr##.info-bar > li:not([class], [title])
+takvim.com.tr##.dualTabWidget > .tabs > li:nth-of-type(2):last-of-type
+star.com.tr##.pray
+istiklal.com.tr##.nv-main
+gazeteguncel.com,gaziantep27.net##.prayer-side
+agridogruhaber.com##.BlokNamazRenk
+agridogruhaber.com##.namazbg
+cagdasburdur.com#?#div[id^=custom_html-]:-abp-contains(NAMAZ VAKİTLERİ)
+||icdn.tgrthaber.com.tr/*/cami_icon_*.png^$image
+||img.piri.net/*imsakiye.jpg^$domain=yenisafak.com
