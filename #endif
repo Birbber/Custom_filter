@@ -1,0 +1,6 @@
+!#if non-existing-variable
+!#include non-existing-file.txt
+!#endif
+!#if adguard
+!#include https://raw.githubusercontent.com/Birbber/Custom_filter/main/Custom_filter //надо заменить на любой существующий фильтр
+!#endif
