@@ -1,0 +1,3 @@
+!#if adguard
+!#include non-existing-file.txt
+!#endif
