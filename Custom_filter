@@ -1,4 +1,4 @@
-!yandex.ru#$#body { background-color: #FF0000!important; }
+yandex.ru#$#body { background-color: #FF0000!important; }
 example.org#%#//scriptlet("abort-on-property-read", "alert")
 example.org#%#window.__gaq = undefined;
 ||example.com^$script,stylesheet
